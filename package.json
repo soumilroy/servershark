@@ -1,0 +1,19 @@
+{
+  "name": "serversharks",
+  "version": "0.0.1",
+  "description": "Digital Ocean CLI Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "shark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soumilroy/serversharks.git"
+  },
+  "author": "Soumil Roy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soumilroy/serversharks/issues"
+  },
+  "homepage": "https://github.com/soumilroy/serversharks#readme"
+}
