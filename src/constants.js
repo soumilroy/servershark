@@ -1,6 +1,8 @@
 module.exports = {
   URLS: {
     DO_BASE_URL: "https://api.digitalocean.com/v2/",
+  },
+  ENDPOINTS: {
     DO_USER_INFORMATION: "/account",
     DO_CUSTOMER_BALANCE: "/customers/my/balance",
     DO_LIST_ALL_INVOICES: "/customers/my/invoices",
