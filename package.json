@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/soumilroy/serversharks#readme",
   "dependencies": {
+    "axios": "^0.26.1",
     "chalk": "^5.0.1",
     "inquirer": "^8.2.2",
-    "node-fetch": "^3.2.3",
     "ora": "^6.1.0"
   },
   "devDependencies": {
