@@ -15,12 +15,16 @@
   "bugs": {
     "url": "https://github.com/soumilroy/serversharks/issues"
   },
+  "bin": {
+    "shark": "./src/index.js"
+  },
   "homepage": "https://github.com/soumilroy/serversharks#readme",
   "dependencies": {
     "axios": "^0.26.1",
     "chalk": "^5.0.1",
     "inquirer": "^8.2.2",
-    "ora": "^6.1.0"
+    "ora": "^6.1.0",
+    "sqlite3": "^5.0.3"
   },
   "devDependencies": {
     "dotenv": "^16.0.0",

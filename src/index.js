@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 const Constants = require("./constants");
 const Axios = require("./axios");
 
