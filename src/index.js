@@ -16,7 +16,7 @@ function getAllDomains() {
 // getAccountInformation().then(({ data }) => console.log(data));
 getInvoices()
   .then(({ data }) => console.log(data))
-  .catch((e) => console.log(e.message));
-getAllDomains()
-  .then(({ data }) => console.log(data))
-  .catch((e) => console.log(e.message));
+  .catch(({ response }) => console.log(response.status, response.data.message));
+// getAllDomains()
+//   .then(({ data }) => console.log(data))
+//   .catch((e) => console.log(e.message));
