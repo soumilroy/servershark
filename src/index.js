@@ -13,6 +13,10 @@ function getAllDomains() {
   return Axios(Constants.ENDPOINTS.DO_LIST_ALL_DOMAINS);
 }
 
-getAccountInformation().then(({ data }) => console.log(data));
-getInvoices().then(({ data }) => console.log(data));
-getAllDomains().then(({ data }) => console.log(data));
+// getAccountInformation().then(({ data }) => console.log(data));
+getInvoices()
+  .then(({ data }) => console.log(data))
+  .catch((e) => console.log(e.message));
+getAllDomains()
+  .then(({ data }) => console.log(data))
+  .catch((e) => console.log(e.message));
